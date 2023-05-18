@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me: Millanda Zhou</title>
+    <title>About Me - Millanda Zhou</title>
 
     <link
       rel="stylesheet"
@@ -41,6 +41,22 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="" class="logo" alt="Millanda Logo" />
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Millanda">About</a>
+          </li>
+          <li><a href="/work.html" title="Millanda's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Millanda">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -57,16 +73,70 @@
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
-          <a href="" class="btn btn-branding">Check out my projects</a>
+          <a
+            href="/work.html"
+            class="btn btn-branding"
+            title="Millanda's Projects"
+            >Check out my projects</a
+          >
         </div>
         <div class="col-lg-6">
           <img
             src="/images/millanda-headshot.jpeg"
-            alt=""
+            alt="Millanda's headshot"
             class="img-fluid headshot-image"
           />
         </div>
       </div>
+      <footer>
+        <div class="contact-box d-none d-md-flex justify-content-between mb-5">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p>Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Millanda"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:zmillanda@gmail.com"
+            class="email-link"
+            title="Email Millanda"
+          >
+            zmillanda@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://github.com/millanda"
+            target="_blank"
+            title="Github Profile"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/millanda"
+            target="_blank"
+            title="LinkedIn Profile"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Millanda Zhou, and it is
+          <a
+            href="https://github.com/millanda/portfolio-project"
+            target="_blank"
+            alt="Github repository"
+          >
+            open-sourced
+          </a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>

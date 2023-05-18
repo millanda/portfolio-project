@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Millanda Zhou is a front-end developer based in Seattle, WA. She is primarily self-taught with online courses and has experience in HTML, CSS, Javascript, React, Bootstrap, and Flexbox."
+    />
     <title>Front-end developer: Millanda Zhou</title>
 
     <link
@@ -43,12 +47,14 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="" class="logo" alt="" />
+        <a href="/" title="Homepage">
+          <img src="" class="logo" alt="Millanda Logo" />
+        </a>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Millanda">About</a></li>
+          <li><a href="/work.html" title="Millanda's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Millanda">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -57,7 +63,11 @@
       <p>Hi I am</p>
       <h1>Millanda Zhou</h1>
       <h2 class="mt-4 mb-5">Front-end developer based in Seattle, WA.</h2>
-      <div><a href="#" class="btn btn-branding">Check out my work</a></div>
+      <div>
+        <a href="/work.html" class="btn btn-branding" title="Millanda's work"
+          >Check out my work</a
+        >
+      </div>
     </div>
 
     <p class="text-center m-5">
@@ -67,7 +77,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="/images/yogurt.png" class="img-fluid" alt="" />
+          <img
+            src="/images/yogurt.png"
+            class="img-fluid"
+            alt="Yogurt project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -78,7 +92,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn-branding-outline"> Launch Project </a>
+            <a href="/work.html" class="btn-branding-outline">
+              Launch Project
+            </a>
           </div>
         </div>
       </div>
@@ -93,17 +109,27 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn-branding-outline"> Launch Project </a>
+            <a href="/work.html" class="btn-branding-outline">
+              Launch Project
+            </a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="/images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="/images/weather.png"
+            class="img-fluid"
+            alt="Weather app preview"
+          />
         </div>
       </div>
 
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="/images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="/images/dictionary.png"
+            class="img-fluid"
+            alt="Dictionary app preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -114,7 +140,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn-branding-outline"> Launch Project </a>
+            <a href="/work.html" class="btn-branding-outline">
+              Launch Project
+            </a>
           </div>
         </div>
       </div>
@@ -122,26 +150,51 @@
       <footer>
         <div class="contact-box d-none d-md-flex justify-content-between mb-5">
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p>Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Millanda"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:zmillanda@gmail.com" class="email-link">
+          <a
+            href="mailto:zmillanda@gmail.com"
+            class="email-link"
+            title="Email Millanda"
+          >
             zmillanda@gmail.com
           </a>
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://github.com/millanda" target="_blank"
+          <a
+            href="https://github.com/millanda"
+            target="_blank"
+            title="Github Profile"
             ><i class="fab fa-github"></i
           ></a>
-          <a href="https://www.linkedin.com/in/millanda" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/millanda"
+            target="_blank"
+            title="LinkedIn Profile"
             ><i class="fa-brands fa-linkedin-in"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Millanda Zhou, and it is
+          <a
+            href="https://github.com/millanda/portfolio-project"
+            target="_blank"
+            alt="Github repository"
+          >
+            open-sourced
+          </a>
+        </p>
       </footer>
     </div>
   </body>
