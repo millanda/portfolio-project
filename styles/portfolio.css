@@ -1,131 +1,170 @@
 :root {
-    --branding-color: #6C63FF;
-    --secondary-color: #F9F7FE;
-    --heading-font-family: 'Playfair Display', serif;
-    --default-font-family: 'Poppins', sans-serif;
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
 body {
-    font-family: var(--default-font-family);
+  font-family: var(--default-font-family);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #000000;
-    font-family: var(--heading-font-family);
-    font-weight: bold;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 
 h1 {
-    font-size: 96px;
+  font-size: 96px;
 }
 
 h2 {
-    font-size: 64px;
+  font-size: 64px;
 }
 
 p {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
-    text-align: center;
-    padding: 160px 20px;
-    background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+  background-color: var(--secondary-color);
 }
 
 .hero h2 {
-    color: #272142;
-    font-family: var(--default-font-family);
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 2;
+  color: #272142;
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 2;
 }
 
 .hero p {
-    font-family: var(--default-font-family);
-    font-weight: bold;
-    font-size: 36px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 36px;
 }
 
 .content-container {
-    padding: 160px 20px;
+  padding: 160px 20px;
 }
 
 .content h1 {
-    font-size: 64px;
-    line-height: 1.5;
+  font-size: 64px;
+  line-height: 1.5;
 }
 
 .content h2 {
-font-size: 18px;
-font-family: var(--default-font-family);
+  font-size: 18px;
+  font-family: var(--default-font-family);
 }
 
 .content h3 {
-    font-size: 24px;
-    line-height: 1.5;
-    margin: 20px 0 0 ;
-    font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
 }
 
 .content p {
-    margin: 0;
-    font-size: 14px;
+  margin: 0;
+  font-size: 14px;
 }
 
 .content {
-    margin: 30px;
+  margin: 30px;
 }
 
 .headshot-image {
-    margin: 20px;
-    max-width: 400px;
+  margin: 20px;
+  max-width: 400px;
 }
 
 .btn-branding {
-    color: #FFFFFF;
-    background-color: var(--branding-color);
-    padding: 18px 46px;
-    border-radius: 4px;
-    font-size: 18px;
+  color: #ffffff;
+  background-color: var(--branding-color);
+  padding: 18px 46px;
+  border-radius: 4px;
+  font-size: 18px;
 }
 
 .btn-branding-outline {
-    color: var(--branding-color);
-    border: 1px solid var(--branding-color);
-    padding: 18px 46px;
-    border-radius: 4px;
-    font-size: 18px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  padding: 18px 46px;
+  border-radius: 4px;
+  font-size: 18px;
 }
 
 .project-description {
-    padding: 120px 60px;
+  padding: 120px 60px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
 
 @media (max-width: 992px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
 
-    h1 {
-        font-size: 44px;
-        line-height: 2;
-    }
+  .hero {
+    padding: 80px 20px;
+  }
 
-    .hero {
-        padding: 80px 20px;
-    }
+  .content {
+    text-align: center;
+    padding: 0;
+  }
 
-    .content {
-        text-align: center;
-        padding: 0;
-    }
-
-.project-description {
+  .project-description {
     padding: 0;
     text-align: center;
-}
+  }
 
-.project-description h2 {
+  .project-description h2 {
     font-size: 44px;
-}
+  }
+
+  nav a {
+    font-size: 14px;
+  }
 }
