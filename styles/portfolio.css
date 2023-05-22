@@ -59,6 +59,10 @@ p {
   font-size: 36px;
 }
 
+.hero .programmer-img {
+  padding: 20px;
+}
+
 .content-container {
   padding: 60px 20px;
 }
