@@ -121,7 +121,9 @@ p {
 
 .content p {
   margin: 0;
-  font-size: 14px;
+  line-height: 1.7;
+  font-size: 15px;
+  padding: 7px;
 }
 
 .content {
@@ -130,7 +132,7 @@ p {
 
 .headshot-image {
   margin: 20px;
-  max-width: 400px;
+  max-width: 300px;
 }
 
 .btn-branding {
