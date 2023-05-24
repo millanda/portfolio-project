@@ -159,6 +159,26 @@ p {
   max-height: 40px;
 }
 
+.tools-content {
+  background-color: var(--secondary-color);
+  padding: 20px 60px;
+  font-size: 70px;
+  border-radius: 10px;
+}
+
+.tools-content i {
+  color: #000000;
+  transition: all 100ms ease-in-out;
+}
+
+.tools-content i:hover {
+  color: var(--branding-color);
+}
+
+.tools-content h2 {
+  font-size: 26px;
+}
+
 nav {
   padding: 20px 0;
 }
