@@ -159,6 +159,11 @@ p {
   max-height: 70px;
 }
 
+.headshot-image {
+  border: 2px solid var(--branding-color);
+  border-radius: 50%;
+}
+
 .tools-content {
   background-color: var(--secondary-color);
   padding: 15px 20px;
