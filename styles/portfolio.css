@@ -161,8 +161,8 @@ p {
 
 .tools-content {
   background-color: var(--secondary-color);
-  padding: 20px 60px;
-  font-size: 70px;
+  padding: 15px 40px;
+  font-size: 50px;
   border-radius: 10px;
 }
 
@@ -176,7 +176,7 @@ p {
 }
 
 .tools-content h2 {
-  font-size: 26px;
+  font-size: 20px;
 }
 
 nav {
