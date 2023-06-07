@@ -196,6 +196,27 @@ a:hover {
   font-size: 14px;
 }
 
+.portfolio-tools {
+  font-size: 30px;
+}
+
+.portfolio-tools p {
+  font-size: 14px;
+}
+
+.project-preview {
+  padding: 15px;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2),
+    -1px -1px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.project-preview img {
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2),
+    -1px -1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 nav {
   padding: 15px 0;
 }
