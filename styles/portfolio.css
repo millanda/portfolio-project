@@ -138,6 +138,30 @@ a:hover {
   margin: 30px;
 }
 
+.home-about-content {
+  text-align: center;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  border: 2px solid var(--branding-color);
+  border-radius: 4px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 35px 10px;
+}
+
+.home-about-content p {
+  font-size: 19px;
+  text-align: left;
+}
+
+.vl {
+  border-left: 2px solid var(--branding-color);
+  height: 120px;
+  position: relative;
+  left: 50%;
+  margin-bottom: -48px;
+}
+
 .headshot-image {
   margin: 20px;
   max-width: 300px;
@@ -153,6 +177,7 @@ a:hover {
 
 .btn-branding-outline {
   color: var(--branding-color);
+  background: #f6f1f1;
   border: 1px solid var(--branding-color);
   padding: 18px 46px;
   border-radius: 4px;
